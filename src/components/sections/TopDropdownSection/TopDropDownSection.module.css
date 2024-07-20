@@ -1,0 +1,12 @@
+.root {
+    margin-top: 22px;
+}
+
+.avatarContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    @media (min-width: 769px) {
+        display: none!important;
+    }
+}

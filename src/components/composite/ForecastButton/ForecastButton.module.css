@@ -1,0 +1,26 @@
+.forecastBtnContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.forecastBtn {
+    width: 60%;
+    border-radius: 16px;
+    font-size: 12px;
+    font-weight: 500;
+    background: rgba(234, 202, 143, 1);
+    @media (min-width:$mantine-breakpoint-sm) {
+        display: none;
+    }
+}
+
+.forecastBtn:active {
+    background: rgba(234, 202, 143, 0.85);
+}
+
+.forecastBtn:focus-visible {
+    background: rgba(234, 202, 143, 0.85);
+}

@@ -1,0 +1,59 @@
+.root {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    border-radius: 20px;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.27);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-image: url('/assets/icons/vectorBg.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    @media (max-width:$mantine-breakpoint-sm) {
+        background: none;
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+    }
+}
+
+.carouselSlide {
+    transition: transform 0.3s ease-in-out;
+}
+
+.carouselSlideActive {
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.weatherTextContainer {
+    margin-top: 20px;
+    position: relative;
+    @media (max-width:$mantine-breakpoint-sm) {
+        display: none;
+    }
+}
+
+.carouselControl {
+    background: transparent;
+    border: none;
+    color: rgba(255, 195, 85, 1);
+}
+
+.carouselControl svg {
+    width: 100%;
+    height: 100%;
+}
+
+.time {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.time p {
+    margin-left: 10px;
+}

@@ -1,0 +1,18 @@
+.weatherItemTop {
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px 0
+}
+
+.weatherItemTextValue{
+    font-size: 14px;
+}
+
+.weatherItemTextLabel{
+    font-size: 12px;
+}
+
+.weatherItemTextLabelCol{
+    position: relative;
+    bottom: 22px;
+}

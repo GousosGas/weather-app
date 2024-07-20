@@ -1,0 +1,7 @@
+.labelContainer {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: center;
+    margin-left: 10px;
+}

@@ -1,0 +1,30 @@
+.container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media (min-width: 769px) {
+        align-items: flex-start;
+        padding: 17px;
+    }
+}
+
+.weather {
+    @media (min-width: 769px) {
+        font-size: 42px;
+    }
+    @media (min-width: 992px) {
+        margin-bottom: 40px;
+    }
+
+}
+
+.icon {
+    width: 177px;
+    padding: 13px;
+    @media (min-width: 769px) {
+        align-self: flex-end;
+        width: 286px;
+        margin: 10px 6px;
+        position: absolute;
+    }
+}

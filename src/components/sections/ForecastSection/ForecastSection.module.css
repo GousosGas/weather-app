@@ -1,0 +1,20 @@
+.colContainer {
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.27);
+    border-radius: 40px;
+    backdrop-filter: blur(10px);
+    @media (max-width:$mantine-breakpoint-md) {
+        border-radius: 20px;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.27);
+    border-radius: 40px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.5)
+}
+
